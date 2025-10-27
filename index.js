@@ -14,6 +14,4 @@ app.get("/users", (req, res) => {
     ]);
 });
 
-app.listen(8800, () => {
-    console.log("API running at 8800...");
-});
+app.listen(8800);
